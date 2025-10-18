@@ -139,6 +139,7 @@ body {
   opacity: 0;
   transform: translateY(20px);
   animation: buttonFadeUp 0.8s ease forwards;
+  
 }
 
 .hero-buttons .btn:nth-child(1) {
@@ -151,10 +152,12 @@ body {
 
 .btn-primary {
   background: var(--blue);
+  text-decoration: none;
 }
 
 .btn-success {
   background: var(--teal);
+  text-decoration: none;
 }
 
 .btn:hover {
@@ -275,6 +278,7 @@ body {
     font-weight: 600;
     color: #fff;
     border-radius: 10px;
+    text-decoration: none;
     transition: var(--transition);
   }
 
